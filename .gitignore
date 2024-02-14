@@ -1,4 +1,0 @@
-# all the files we dont want to put on git
-./env
-_pycache_
-venv/
