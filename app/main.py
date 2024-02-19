@@ -69,7 +69,7 @@ app.add_middleware(
 # ("/") - is the route path; the path after the specific name of the API; the url of the website is this slash /
 @app.get("/")    #this code is from fastapi.com
 def read_root(): # a plain function that holds the data that its going to be sent back to the user
-    return {"message": "Hello World"} # this is a python dictionary and fastAPI will convert this to JSON wich is the main language of API.
+    return {"message": "Hello World, new worlld"} # this is a python dictionary and fastAPI will convert this to JSON wich is the main language of API.
 # the JSONs is used to send data back and forth between APIs/  it convert the message to JSON and it sends it back to the user/ that's why we see on the web browser
  
 
